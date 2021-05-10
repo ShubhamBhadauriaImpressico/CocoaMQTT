@@ -92,8 +92,7 @@ class CocoaMQTTDeliver: NSObject {
             printDebug("Recover message \(frames)")
         }
         
-        deliverQueue.async { [weak self] in
-            guard let self = self else { return }
+        deliverQueue.async {
             self.tryTransport()
         }
     }
@@ -113,8 +112,7 @@ class CocoaMQTTDeliver: NSObject {
             _ = storage?.write(frame)
         }
         
-        deliverQueue.async { [weak self] in
-            guard let self = self else { return }
+        deliverQueue.async { 
             self.tryTransport()
         }
         
