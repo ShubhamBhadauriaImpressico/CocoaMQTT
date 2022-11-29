@@ -3,11 +3,10 @@
     "pins": [
       {
         "package": "CocoaAsyncSocket",
-        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket",
+        "repositoryURL": "https://github.com/panasoniciic/CocoaAsyncSocket",
         "state": {
-          "branch": null,
-          "revision": "0e00c967a010fc43ce528bd633d032f17158d393",
-          "version": "7.6.4"
+          "branch": "master",
+          "revision": "f637e3819f69c2044ca8a68a8e8a46a724dc494e"
         }
       },
       {
